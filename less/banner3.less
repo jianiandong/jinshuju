@@ -1,0 +1,98 @@
+body{
+    background-color: #fafafa !important;
+}
+header[role="banner"]{
+    .banner-logo{
+        height: 40px;
+        line-height: 40px;
+        background: white;
+        ul {
+            list-style: none;
+        }
+        ul:nth-child(1)>li{
+            float: left;
+        }
+        ul:nth-child(2)>li{
+            float: right;
+        }
+        li {
+            margin-right: 20px;
+        }
+    }
+   .topLunbo{
+       
+       >ul{
+           list-style: none;
+       >li{
+           height: 47px;
+           line-height: 47px;
+           font-size: 20px;
+           border: 1px solid #CCCCCC;
+           background: white;
+       }
+       }
+   }
+}
+main[role="main"]{
+    .templet{
+        font-size: 30px;
+        font-weight: bold;
+        b{
+            font-size: 15px;
+        }
+        span{
+            font-size: 15px;
+        }
+    }
+    .hotTemplet{
+        list-style: none;
+    }
+    .hotTemplet>li>div:nth-child(1){
+        height: 184px;
+        overflow: hidden;
+        position: relative;
+        .a2{
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+    }
+    .hotTemplet>li>div:nth-child(2){
+        b {
+            margin:10px 0;
+        }
+    }
+    
+}
+footer[role="contentinfo"]{
+    dd{
+        margin-top: 10px;
+        cursor: pointer;
+    }
+}
+.totFixed{
+    width: 100%;
+    padding: 20px;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    ul{
+        list-style: none;
+        margin-top: 5px;
+        li {
+            float: left;
+            font-size: 20px;
+            margin-right: 10px;
+            a{
+            color: blue;
+            }
+            a:hover{
+                color: blue;
+            }
+        }
+    }
+}
